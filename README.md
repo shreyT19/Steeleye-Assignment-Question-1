@@ -1,29 +1,56 @@
-# Instructions
+# README - App Issue Fixes and Enhancements
 
-- clone this repo and open with your favorite code editor
+Welcome to the repository for the App Issue Fixes and Enhancements! This project focuses on resolving specific issues and adding enhancements to an existing application. We appreciate your interest and involvement in contributing to this project.
 
-- make sure you are checked out to `master` branch
+## Instructions
 
-- to run the app `npm install` then `npm start`
+To get started, follow these steps:
 
-## Please fix the following issues
+1. Clone this repository to your local machine.
+2. Make sure you are checked out to the `master` branch.
+3. Run the command `npm install` to install the necessary dependencies.
+4. Start the application using the command `npm start`.
 
-1.  In the title of the header, it displays `5 orders` but there are `6 orders` in the table. We want to display the `total` number of `orders` in the header title
+## Issue Fixes and Enhancements
 
-2.  In the table order submitted date is missing, we have timestamp data included in the `src\assets\timeStamps.json` with the corresponding ids, please combine that with the order data and make sure the order submitted date is being displayed in the table
+In this section, we outline the specific issues that have been addressed and the enhancements that have been added to the application.
 
-3.  Order Volume cell is displaying USD values, can you please make it display the currency value selected on the dropdown located in the header of the dashboard
+### 1. Total Number of Orders Display
 
-4.  Can you please add search feature on the order IDs with the search bar given in the header
+Issue: The title of the header incorrectly displays "5 orders" instead of the actual total number of orders present in the table.
+Fix: The header title now accurately displays the total number of orders.
 
-5.  Please clear the console errors and warnings.
+### 2. Order Submitted Date Integration
 
-6.  When user selects an order, can you populate the Card on top of the listing component as shown in the image
+Issue: The order submitted dates are missing from the table.
+Fix: The order submitted dates have been integrated into the table using timestamp data from `src\assets\timeStamps.json`, ensuring accurate display of order submission information.
 
-![alt text](dashboard.JPG)
+### 3. Dynamic Currency Display
 
-## Bonus
+Issue: The Order Volume cell displays USD values regardless of the selected currency in the header dropdown.
+Fix: The Order Volume cell now dynamically displays the currency value selected in the header dropdown.
 
-- run storybook `npm run storybook`
+### 4. Search Feature for Order IDs
 
-1. Please add storybook to one of the components
+Enhancement: A search feature has been added to enable users to search for specific orders using the order IDs in the header search bar.
+
+### 5. Console Errors and Warnings
+
+Issue: Console errors and warnings were present in the application.
+Fix: Console errors and warnings have been resolved, leading to a smoother and error-free user experience.
+
+### 6. Order Details Card
+
+Enhancement: When a user selects an order from the table, a detailed Order Details Card is now populated above the listing component, providing an enhanced user experience.
+
+### 7. Storybook Integration
+
+Enhancement: Storybook has been integrated into one of the components i.e the <b> List Component </b>, allowing for isolated development and testing of UI components. To run Storybook, use the command `npm run storybook`.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+If you have any questions or need assistance, feel free to contact us at shreyanshtripathy49@gmail.com.
