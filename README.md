@@ -2,6 +2,9 @@
 
 Welcome to the repository for the App Issue Fixes and Enhancements! This project focuses on resolving specific issues and adding enhancements to an existing application. We appreciate your interest and involvement in contributing to this project.
 
+Live Link
+You can explore the live version of the application here => https://steeleye-assignment-question-1-shreyansh.vercel.app/
+
 ## Instructions
 
 To get started, follow these steps:
